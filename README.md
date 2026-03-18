@@ -13,6 +13,7 @@ A command-line tool for visualising and exploring Minecraft worlds that use the 
   </tr>
 </table>
 
+(Screenshots taken in Infdef 20100611)
 ---
 
 ## Features
