@@ -3,7 +3,7 @@
 A command-line tool for visualising and exploring Minecraft worlds that use the **Alpha level format** — individual gzipped NBT chunk files stored in base36-named subdirectories. This format was used from **Infdev 20100327** through **Beta 1.2_02**, before Mojang switched to the McRegion format in Beta 1.3.
 
 ![Flat map example](Screenshots/v0.0.1-alpha_Example_shaded.png)
-![Flat map example](Screenshots/v0.0.1-alpha_Example_clean.png)
+![Flat map example](Screenshots/v0.0.1-alpha_Example_shaded_clean.png)
 
 
 ---
