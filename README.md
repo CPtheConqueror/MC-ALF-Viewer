@@ -51,14 +51,14 @@ Press `Ctrl + Alt + T`, or search for Terminal in your applications menu.
 In your terminal, type the command in this format:
 
 ```
-python "C:\path\to\infdev_map.py" "C:\path\to\your\world"
+python "C:\path\to\MC-ALF-Viewer.py" "C:\path\to\your\world"
 ```
 
 The world path should point to the folder that contains `level.dat` — not the saves folder itself.
 
 **Example:**
 ```
-python "D:\Games\Minecraft (PrismLauncher)\infdev_map.py" "D:\Games\Minecraft (PrismLauncher)\instances\infdev 20100611\minecraft\saves\World1"
+python "D:\Games\Minecraft (PrismLauncher)\MC-ALF-Viewer.py" "D:\Games\Minecraft (PrismLauncher)\instances\infdev 20100611\minecraft\saves\World1"
 ```
 
 > **Note:** If any part of your path contains spaces, wrap the whole path in double quotes `"` as shown above.
