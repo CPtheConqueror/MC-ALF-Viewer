@@ -30,11 +30,11 @@ A command-line tool for visualising and exploring Minecraft worlds that use the 
 ## Planned Features
 
 - Removing the need for a python installation, making it all a portable .exe file.
-- Remving cmd line use making it all a graphical window.
+- Removing cmd line use making it all a graphical window.
 - Chunk trimming in worlds.
 - Copy/paste chunks around your world, or into other worlds.
 - Move any chunk anywhere in the world.
-- The ability to save certain chunks into a file(s) that can be imporyed to any world, anywhere.
+- The ability to save certain chunks into a file(s) that can be imported to any world, anywhere.
 - Possibly more in the future!
 
 ---
