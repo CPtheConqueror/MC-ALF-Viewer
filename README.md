@@ -51,9 +51,9 @@ A command-line tool for visualising and exploring Minecraft worlds that use the 
 
 ## Installation
 
-1. Download `infdev_map.py` from this repository
-2. Place it somewhere easy to find, for example `D:\Tools\infdev_map.py`
-3. That's it — no further installation needed
+1. Download `MC-ALF-Viewer.py` from this repository
+2. Place it somewhere easy to find, for example `D:\Tools\MC-ALF-Viewer.py`
+3. That's it. Only python installation is required.
 
 ---
 
@@ -78,7 +78,7 @@ In your terminal, type the command in this format:
 python "C:\path\to\MC-ALF-Viewer.py" "C:\path\to\your\world"
 ```
 
-The world path should point to the folder that contains `level.dat` — not the saves folder itself.
+The world path should point to the folder that contains `level.dat` — not the saves folder itself. It is usually called World1 in these versions, but can be different.
 
 **Example:**
 ```
@@ -179,6 +179,8 @@ These can be appended to your command to skip prompts or change behaviour:
 | `--scale 4` | 4 pixels per block (larger image, no new detail) |
 | `--info` | Print world info only and exit, no map or search |
 
+As of now these are mostly useless, leaving nothing is perfectly fine.
+
 **Example with scale:**
 ```
 python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
@@ -189,9 +191,9 @@ python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
 ## Notes
 
 - The tool works with any world size — it dynamically calculates the map dimensions from whatever chunks are present
-- Very large worlds may produce very large image files. Use `--scale 1` to reduce output size if needed
+- Very large worlds may produce very large image files. Use `--scale 1` (or type nothing and it will default to scale 1) to reduce output size if needed
 - Unknown block IDs are rendered in **bright magenta** on the map so they are easy to spot
-- This tool is read-only — it does not modify your world in any way
+- This tool is read-only — it does not modify your world in any way as of yet.
 
 ---
 
@@ -199,7 +201,7 @@ python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
 
 | Format | Supported |
 |--------|-----------|
-| Infdev 20100327 – Beta 1.2_02 (Alpha level format) | ✅ Yes |
+| Infdev 20100327 – Beta 1.2_02 (Alpha level format) | ✅ Yes | (Only Infdev 20100611 has been tested fully, but there should be 0 issues with compatible versions)
 | Beta 1.3+ (McRegion `.mcr` format) | ❌ No |
 | Release 1.2+ (Anvil `.mca` format) | ❌ No |
 | Pre Infdev 20100327 (Alpha level format) | ❌ No |
