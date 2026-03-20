@@ -200,9 +200,11 @@ python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
 
 ## Compatibility
 
+(Only Infdev 20100611 has been tested fully, but there should be 0 issues with compatible versions)
+
 | Format | Supported |
 |--------|-----------|
-| Infdev 20100327 – Beta 1.2_02 (Alpha level format) | ✅ Yes | (Only Infdev 20100611 has been tested fully, but there should be 0 issues with compatible versions)
+| Infdev 20100327 – Beta 1.2_02 (Alpha level format) | ✅ Yes |
 | Beta 1.3+ (McRegion `.mcr` format) | ❌ No |
 | Release 1.2+ (Anvil `.mca` format) | ❌ No |
 | Pre Infdev 20100327 (Alpha level format) | ❌ No |
