@@ -195,6 +195,7 @@ python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
 - Very large worlds may produce very large image files. Use `--scale 1` (or type nothing and it will default to scale 1) to reduce output size if needed
 - Unknown block IDs are rendered in **bright magenta** on the map so they are easy to spot
 - This tool is read-only — it does not modify your world in any way as of yet.
+- This project is very early on, being worked on by a solo dev with little experience. Please do let me know of any issues you come across, and suggest any features you think should be added.
 
 ---
 
