@@ -55,6 +55,7 @@ A command-line tool for visualising and exploring Minecraft worlds that use the 
 1. Download `MC-ALF-Viewer.py` from this repository
 2. Place it somewhere easy to find, for example `D:\Tools\MC-ALF-Viewer.py`
 3. That's it. Only python installation is required.
+4. Currently only windows is being tested and supported, but macOS and Linux are plaanned for in the future. This does not mean you cant get any aspect of the program to work, it is just unsupported so it might not work as intended or at all.
 
 ---
 
