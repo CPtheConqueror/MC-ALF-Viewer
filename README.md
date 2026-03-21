@@ -35,7 +35,7 @@ A command-line tool for visualising and exploring Minecraft worlds that use the 
 - Copy/paste chunks around your world, or into other worlds.
 - Move any chunk anywhere in the world.
 - The ability to save certain chunks into a file(s) that can be imported to any world, anywhere.
-- Unlikely, but a potential feature to read/write minecraft worlds in other versions besides ALF is being contemplated on for distant versions.
+- Potentially a feature to view each layer of blocks in a minecraft world, and render an image of it.
 - Possibly more in the future!
 
 ---
