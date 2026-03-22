@@ -165,7 +165,7 @@ Opens a window showing your world, similarly to how the rendered image is shown.
 <table>
   <tr>
     <td><img src="Screenshots/Chunk Editor showcase selected chunks.png" width="400"/></td>
-    <td><img src="Screenshots/Chunk Editor showcase selected chunks.png" width="400"/></td>
+    <td><img src="Screenshots/Chunk Editor showcase.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center">Shaded (grid)</td>
