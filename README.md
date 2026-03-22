@@ -1,6 +1,6 @@
 # Infdev / Alpha World Map Viewer
 
-A command-line tool for visualising and exploring Minecraft worlds that use the **Alpha level format** (Alpha Level Format is the way minecraft saved the worlds in these versions, I have shortened it to ALF, and will often use ALF and Alpha Level Format interchangeably. Just because it has Alpha in its name doesnt mean it is only for Alpha versions, it is in the versions described in here) — individual gzipped NBT chunk files stored in base36-named subdirectories. This format was used from **Infdev 20100327** through **Beta 1.2_02**, before Mojang switched to the McRegion format in Beta 1.3.
+A command-line tool for visualising and exploring, and editing Minecraft worlds that use the **Alpha level format** (Alpha Level Format is the way minecraft saved the worlds in these versions, I have shortened it to ALF, and will often use ALF and Alpha Level Format interchangeably. Just because it has Alpha in its name doesnt mean it is only for Alpha versions, it is in the versions described in here) — individual gzipped NBT chunk files stored in base36-named subdirectories. This format was used from **Infdev 20100327** through **Beta 1.2_02**, before Mojang switched to the McRegion format in Beta 1.3.
 
 <table>
   <tr>
@@ -110,7 +110,8 @@ You will then see the main menu:
   What would you like to do?
   1 = Render map image(s)
   2 = Search for blocks
-  3 = Quit
+  3 = Edit Chunks
+  4 = Quit
 ========================================
 ```
 
@@ -157,7 +158,11 @@ Enter a numeric block ID to find every instance of that block across all loaded 
 | 15 | Iron Ore | 21 | Lapis Lazuli Ore |
 | 16 | Coal Ore | 89 | Glowstone |
 
-### Option 3 — Quit
+### Option 3 — Edit Chunks
+
+Opens a window showing your world, similarly to how the rendered image is shown. You can use your left mouse button to select and deselect chunks (although this has no use yet). Clicking and holding the right mouse button allows you to drag around the image when you move your mouse. Actual chunk editing is coming soon!
+
+### Option 4 — Quit
 
 Exits the program.
 
@@ -197,6 +202,7 @@ python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
 - Very large worlds may produce very large image files. Use `--scale 1` (or type nothing and it will default to scale 1) to reduce output size if needed
 - Unknown block IDs are rendered in **bright magenta** on the map so they are easy to spot
 - This tool is read-only — it does not modify your world in any way as of yet.
+- Opening large worlds in option 4 is quite laggy, especially when zooming far out. Optimizations are being worked on, but keeping your view zoomed in reduces lag greatly.
 - This project is very early on, being worked on by a solo dev with little experience. Please do let me know of any issues you come across, and suggest any features you think should be added.
 
 ---
