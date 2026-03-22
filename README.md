@@ -24,6 +24,7 @@ A command-line tool for visualising and exploring Minecraft worlds that use the 
 - Search for any block by ID across all loaded chunks and print every coordinate
 - Export large search results to a `.txt` file
 - Prints world info on startup: seed, player position, and days played
+- A work in progress chunk editor mode. Currently just a window to zoom, scoll, and select chunks around your world, with no real use yet.
 
 ---
 
