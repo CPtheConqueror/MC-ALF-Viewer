@@ -162,6 +162,17 @@ Enter a numeric block ID to find every instance of that block across all loaded 
 
 Opens a window showing your world, similarly to how the rendered image is shown. You can use your left mouse button to select and deselect chunks (although this has no use yet). Clicking and holding the right mouse button allows you to drag around the image when you move your mouse. Actual chunk editing is coming soon!
 
+<table>
+  <tr>
+    <td><img src="Screenshots/Chunk Editor showcase selected chunks.png" width="400"/></td>
+    <td><img src="Screenshots/Chunk Editor showcase selected chunks.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">Shaded (grid)</td>
+    <td align="center">Shaded (clean)</td>
+  </tr>
+</table>
+
 ### Option 4 — Quit
 
 Exits the program.
