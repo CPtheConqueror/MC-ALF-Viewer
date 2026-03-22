@@ -13,7 +13,7 @@ A command-line tool for visualising and exploring, and editing Minecraft worlds 
   </tr>
 </table>
 
-(Screenshots taken in Infdef 20100611)
+(Screenshots taken in Infdev 20100611)
 ---
 
 ## Features
@@ -24,7 +24,7 @@ A command-line tool for visualising and exploring, and editing Minecraft worlds 
 - Search for any block by ID across all loaded chunks and print every coordinate
 - Export large search results to a `.txt` file
 - Prints world info on startup: seed, player position, and days played
-- A work in progress chunk editor mode. Currently just a window to zoom, scoll, and select chunks around your world, with no real use yet.
+- A work in progress chunk editor mode. Currently just a window to zoom, scroll, and select chunks around your world, with no real use yet.
 
 ---
 
@@ -56,7 +56,7 @@ A command-line tool for visualising and exploring, and editing Minecraft worlds 
 1. Download `MC-ALF-Viewer.py` from this repository
 2. Place it somewhere easy to find, for example `D:\Tools\MC-ALF-Viewer.py`
 3. That's it. Only python installation is required.
-4. Currently only windows is being tested and supported, but macOS and Linux are plaanned for in the future. This does not mean you cant get any aspect of the program to work, it is just unsupported so it might not work as intended or at all.
+4. Currently only windows is being tested and supported, but macOS and Linux are planned for in the future. This does not mean you cant get any aspect of the program to work, it is just unsupported so it might not work as intended or at all.
 
 ---
 
@@ -168,8 +168,8 @@ Opens a window showing your world, similarly to how the rendered image is shown.
     <td><img src="Screenshots/Chunk Editor showcase.png" width="400"/></td>
   </tr>
   <tr>
-    <td align="center">Shaded (grid)</td>
-    <td align="center">Shaded (clean)</td>
+    <td align="center">Chunk Editor</td>
+    <td align="center">Chunk Editor selected chunks</td>
   </tr>
 </table>
 
@@ -202,7 +202,7 @@ As of now these are mostly useless, leaving nothing is perfectly fine.
 
 **Example with scale:**
 ```
-python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
+python "D:\Tools\MC-ALF-Viewer.py" "D:\worlds\World1" --scale 4
 ```
 
 ---
@@ -213,7 +213,7 @@ python "D:\Tools\infdev_map.py" "D:\worlds\World1" --scale 4
 - Very large worlds may produce very large image files. Use `--scale 1` (or type nothing and it will default to scale 1) to reduce output size if needed
 - Unknown block IDs are rendered in **bright magenta** on the map so they are easy to spot
 - This tool is read-only — it does not modify your world in any way as of yet.
-- Opening large worlds in option 4 is quite laggy, especially when zooming far out. Optimizations are being worked on, but keeping your view zoomed in reduces lag greatly.
+- Opening large worlds in option 3 is quite laggy, especially when zooming far out. Optimizations are being worked on, but keeping your view zoomed in reduces lag greatly.
 - This project is very early on, being worked on by a solo dev with little experience. Please do let me know of any issues you come across, and suggest any features you think should be added.
 
 ---
