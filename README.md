@@ -1,3 +1,6 @@
+# Project on pause:
+as of now its been 4 months since the last update, I do plan to return to this project soon.
+
 # Infdev / Alpha World Map Viewer
 
 A command-line tool for visualising and exploring, and editing Minecraft worlds that use the **Alpha level format** (Alpha Level Format is the way minecraft saved the worlds in these versions, I have shortened it to ALF, and will often use ALF and Alpha Level Format interchangeably. Just because it has Alpha in its name doesnt mean it is only for Alpha versions, it is in the versions described in here) — individual gzipped NBT chunk files stored in base36-named subdirectories. This format was used from **Infdev 20100327** through **Beta 1.2_02**, before Mojang switched to the McRegion format in Beta 1.3.
